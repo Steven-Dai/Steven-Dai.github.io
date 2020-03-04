@@ -21,9 +21,6 @@ description: Steven Dai's Blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "https://github.com/Steven-Dai"
 
 # Image to show in the navigation bar - image must be a square (width = height)
