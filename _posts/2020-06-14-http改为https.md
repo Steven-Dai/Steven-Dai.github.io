@@ -2,6 +2,7 @@
 layout: post
 title: http改为https
 ---
+tomcat和nginx配置证书,使用https访问
 
 # 证书获取
 ```
