@@ -1,9 +1,9 @@
 title: Steven Tai
 description: My Personal Blog
 author: Steven Tai
-logo: /hcz-jekyll-blog/static/img/avatar.png
+logo: /static/img/avatar.png
 github: https://github.com/steven-tai
-about: Freelance developer
+about: IT攻城狮
 
 baseurl: ""
 url: ""
