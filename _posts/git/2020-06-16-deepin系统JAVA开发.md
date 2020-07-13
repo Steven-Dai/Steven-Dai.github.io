@@ -1,6 +1,12 @@
 ---
 layout: blog
 title: deepin配置Java开发
+background-image: 
+date:  2020-06-16 23:45:56
+category: git
+tags:
+- deepin
+
 ---
 Deepin系统配置JAVA开发环境，安装jdk、git、maven.
 

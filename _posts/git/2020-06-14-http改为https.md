@@ -1,6 +1,13 @@
 ---
-layout: post
+layout: blog
 title: http改为https
+background-image: 
+date:  2020-06-14 23:45:56
+category: git
+tags:
+- http
+- https
+
 ---
 tomcat和nginx配置证书,使用https访问
 

@@ -1,6 +1,14 @@
 ---
-layout: post
+layout: blog
 title: spring boot auto configuration
+background-image: 
+date:  2020-03-08 23:45:56
+category: git
+tags:
+- spring boot
+- 提纲挈领
+- configuration
+
 ---
 
 *提纲挈领(4)	自动配置 auto configuration*

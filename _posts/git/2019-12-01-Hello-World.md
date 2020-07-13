@@ -1,6 +1,12 @@
 ---
 layout: blog
 title: Hello World
+background-image: 
+date:  2019-12-01 23:45:56
+category: git
+tags:
+- hello world
+
 ---
 
 Hello World! Steven Dai
