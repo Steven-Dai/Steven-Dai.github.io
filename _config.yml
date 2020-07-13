@@ -1,28 +1,38 @@
-title: Steven Tai
-description: My Personal Blog
-author: Steven Tai
-logo: /static/img/avatar.png
-github: https://github.com/steven-tai
-about: IT攻城狮
+# ----------- CONFIGURABLE START -----------
+title:            "Steven Tai"
+description:      "Steven Tai的博客站"
+url:              https://steven-tai.github.io # 域名
+signoff:          "Steven Tai" # Your name
+facebook_appid:   #liberxue
+google_analytics: UA-101222464-1
+share:            true 
+# 分页
+paginate: 15
+paginate_path: "liberxuepage:num"
+gems: [jekyll-paginate]
+links:
+  - name:         首页
+    url:          /
+    external:     false
+  - name:         书籍
+    url:          /book
+    external:     false
+  - name:         旅游
+    url:          /road
+    external:     false
+  - name:         归档
+    url:          /archives
+    external:     false
+  - name:         标签
+    url:          /tags
+    external:     false
+  - name:         关于
+    url:          /about
+    external:     false
+# ------------ CONFIGURABLE END ------------
 
-baseurl: ""
-url: ""
-
-allowsearch: true
-
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
-
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
-
-
-enableTags: true
-tagarray: []
-
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
-markdown: kramdown
-gems: [jekyll-paginate, jekyll-gist]
+#permalink:        /:categories/:title.html
+permalink: /:year/:month/:day/:title.html
+defaults:
+  - values:
+      layout: "default"

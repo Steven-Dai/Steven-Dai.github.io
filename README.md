@@ -1,22 +1,70 @@
-## HCZ Material theme
+                .::         .::                       .::      .::                 
+                .::       .:.::                        .::   .::                    
+                .::         .::         .::    .: .:::  .:: .::   .::  .::   .::    
+                .::      .::.:: .::   .:   .::  .::       .::     .::  .:: .:   .:: 
+                .::      .::.::   .::.::::: .:: .::     .:: .::   .::  .::.::::: .::
+                .::      .::.::   .::.:         .::    .::   .::  .::  .::.:        
+                .::::::::.::.:: .::    .::::   .:::   .::      .::  .::.::  .::::   
+                          Copyright (c) 2016-2018 liberxue
+                                 http://www.liberxue.com
+                           
+#### liberxue.github.io preview (demo) (http://www.liberxue.com)
 
-This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
+#### `Jekyll Themes`
+----------
+[简体中文版帮助文档README](/ChinaREADME.md)
+#### ``Lightweight``  ``Minimalist``  ``Jekyll blog``
 
-### Demo
-* [https://codeasashu.github.io/hcz-jekyll-blog](https://codeasashu.github.io/hcz-jekyll-blog/)
+#### The first step is to click [fork][https://github.com/liberxue/liberxue.github.io/fork]
+#### The second step is to modify the _config.yml in URL for your domain name
 
-#### Feature
+#### OK all right, it's that simple
 
-* Sitemap and XML Feed
-* Site Search 
-* Projects and tags
-* Paginations in homepage
-* Posts under category
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
+#### I don't want any copyright also don't need you to donate, I only need you with a star 🌟  Thx 😄
 
-#### Screenshot
+- [x] Automatic generation tag
+- [x] Automatic generation of JSON search
+- [x] Adaptive template
+- [x] Automatic generation of feed.xml
+- [x] Automatic paging generation
+- [x] Modify _config.yml's links for your menu
+- [x] Modify the _config.yml of paginate for how many pages you want to page
+## Stargazers over time
 
-![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  "Screenshot Home Page")
+[![Stargazers over time](https://starchart.cc/Liberxue/liberxue.github.io.svg)](https://starchart.cc/Liberxue/liberxue.github.io)
+
+![uiliberxue](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/ui.jpg) 
+
+ ![archives](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/archives.png) 
+
+ ![blog](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/blog.png) 
+
+ ![tags](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/tags.png) 
+
+  ![404](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/404.png) 
+
+ ----------
+![blog JSON search](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/01.gif) 
+
+#### 1.First step Click[fork](https://github.com/Liberxue/liberxue.github.io#fork-destination-box)
+ 
+----
+
+![fork](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/02.gif)
+  
+  
+
+
+#### 2. modify _config.yml url URL for your domain
+
+![modify _config.yml url URL for your domain](https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/04.gif)
+  
+
+
+
+* [Issues](https://github.com/Liberxue/liberxue.github.io/issues)
+ 
+* [Email](mailto:liberxue@gmail.com)
+ 
+* [Twitter](https://twitter.com/liberxue).
+
