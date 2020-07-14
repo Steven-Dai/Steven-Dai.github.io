@@ -583,20 +583,19 @@ textarea:-ms-input-placeholder {
 }
 
 .navbar-logo {
-  font-size: 22px;
-  line-height: 22px;
   position: absolute;
-  top: 30%;
-  display: block;
+  top: 10%;
   width: auto;
   max-width: 50%;
-  height: 22px;
   text-decoration: none;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  left: 10%;
 }
 
 .navbar-logo img {
-  width: auto;
-  height: 35px;
+  width: 50%;
   outline: 0;
 }
 
@@ -954,7 +953,7 @@ textarea:-ms-input-placeholder {
 
 .post-list-item-container .item-label {
   position: relative;
-  height: 130px;
+  height: 100px;
   padding: 25px 20px 40px;
   background-color: #fff;
 }
