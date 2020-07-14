@@ -1,30 +1,33 @@
 ---
 layout: blog
 title: http改为https
-background-image: 
-date:  2020-06-14 23:45:56
-category: git
+background-image:
+date: 2020-06-14 22:00:00
+category: 服务器
 tags:
-- http
-- https
-
+  - http
+  - https
 ---
-tomcat和nginx配置证书,使用https访问
+
+tomcat 和 nginx 配置证书,使用 https 访问
 
 # 证书获取
+
 ```
 可以到阿里云购买免费版SLL证书并下载(有效期一年)
 https://common-buy.aliyun.com/?spm=5176.2020520163.cas.4.1fc9Az7GAz7GIJ&commodityCode=cas#/buy
 ```
 
 # tomcat
+
 ```
 <Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"         SSLEnabled="true" maxThreads="150" scheme="https" secure="true" clientAuth="false" sslProtocol="TLS" keystoreFile="conf/cert/2640918_www.ztuo.cn.pfx" keystoreType="PKCS12" keystorePass="证书密码" />
 
 ```
-注意:keystoreFile证书路径,keystorePass证书密码
-找到80端口,或者其他访问的端口配置。修改其中配置项 redirectPort为443
-修改tomcat配置文件,web.xml
+
+注意:keystoreFile 证书路径,keystorePass 证书密码
+找到 80 端口,或者其他访问的端口配置。修改其中配置项 redirectPort 为 443
+修改 tomcat 配置文件,web.xml
 
 ```
  <security-constraint>
@@ -37,10 +40,13 @@ https://common-buy.aliyun.com/?spm=5176.2020520163.cas.4.1fc9Az7GAz7GIJ&commodit
     </user-data-constraint>
   </security-constraint>
 ```
-重启tomcat
+
+重启 tomcat
 
 # nginx
+
 修改配置文件 nginx.conf
+
 ```
 server {
     listen 443 ssl;
@@ -60,7 +66,7 @@ server {
         root html;
         index index.html index.htm;
     }
-    
+
             #静态资源
     location ^~ /h5/ {
             alias /app/ztuo/h5/;
@@ -75,7 +81,8 @@ server {
         }
 }
 ```
-重启nginx
 
-Nginx如果未开启SSL模块，配置Https时提示错误。解决传送门：
+重启 nginx
+
+Nginx 如果未开启 SSL 模块，配置 Https 时提示错误。解决传送门：
 https://www.cnblogs.com/ghjbk/p/6744131.html

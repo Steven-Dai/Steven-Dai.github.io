@@ -1,16 +1,17 @@
 ---
 layout: blog
 title: deepin配置Java开发
-background-image: 
-date:  2020-06-16 23:45:56
-category: git
+background-image:
+date: 2020-06-16 22:00:00
+category: 服务器
 tags:
-- deepin
-
+  - deepin
 ---
-Deepin系统配置JAVA开发环境，安装jdk、git、maven.
 
-# 安装jdk8
+Deepin 系统配置 JAVA 开发环境，安装 jdk、git、maven.
+
+# 安装 jdk8
+
 ```
 搜索JAVA安装包
 sudo apt-cache search jdk
@@ -20,7 +21,8 @@ sudo apt-get install openjdk-8-jdk
 java -version
 ```
 
-# 安装git
+# 安装 git
+
 ```
 sudo apt-get update
 sudo apt-get install git
@@ -29,7 +31,8 @@ sudo apt-get install git
 git config --global credential.helper store
 ```
 
-# 安装maven
+# 安装 maven
+
 ```
 下载并上传maven安装包 http://maven.apache.org/download.cgi
 解压并配置settings.xml
