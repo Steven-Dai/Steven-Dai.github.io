@@ -46,11 +46,11 @@ body {
   color: #313131;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
-  user-select: none;
+  user-select: none; */
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -819,7 +819,7 @@ textarea:-ms-input-placeholder {
   -webkit-animation: fade-in 0.5s;
   animation: fade-in;
   animation-duration: 0.5s;
-  width: 65%;
+  width: 60%;
 }
 
 .index-page {
@@ -1146,7 +1146,7 @@ textarea:-ms-input-placeholder {
 .post-header-thumb-container {
   position: relative;
   top: 100px;
-  max-width: 1024px;
+  max-width: 60%;
   margin: 0 auto;
   -webkit-animation: auto;
   animation: fade-in;
