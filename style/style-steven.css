@@ -819,7 +819,7 @@ textarea:-ms-input-placeholder {
   -webkit-animation: fade-in 0.5s;
   animation: fade-in;
   animation-duration: 0.5s;
-  width: 70%;
+  width: 65%;
 }
 
 .index-page {
