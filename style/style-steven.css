@@ -586,16 +586,16 @@ textarea:-ms-input-placeholder {
   position: absolute;
   top: 10%;
   width: auto;
-  max-width: 50%;
+  max-width: 30%;
   text-decoration: none;
   height: 65%;
   display: flex;
   align-items: center;
-  left: 10%;
+  left: 5%;
 }
 
 .navbar-logo img {
-  width: 50%;
+  width: 80%;
   outline: 0;
 }
 
@@ -1146,7 +1146,7 @@ textarea:-ms-input-placeholder {
 .post-header-thumb-container {
   position: relative;
   top: 100px;
-  max-width: 60%;
+  max-width: 65%;
   margin: 0 auto;
   -webkit-animation: auto;
   animation: fade-in;
